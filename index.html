@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook_clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="nav_left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+        </div>
+
+        <div class="nav_right">
+            <div class="search_box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="nav_useer_icon online" onclick="setting_menu_toggle()">
+                <img src="images/profile-pic.png">
+                
+            </div>
+        </div>
+
+        <div class="settings_menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+            <div class="setting_menu_inner">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png">
+                   <div>
+                    <p>Shahjahan</p>
+                    <a href="#">See your Profile</a>
+                </div>
+                </div>
+                <hr>
+                <div class="user_profile">
+                    <img src="images/feedback.png">
+                   <div>
+                    <p>Give Feedback</p>
+                    <a href="#">Help us to improve the new Design</a>
+                </div>
+                </div>
+                <hr>
+                <div class="setting_link">
+                    <img src="images/setting.png" class="setting_icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"> </a>
+                </div>
+
+                <div class="setting_link">
+                    <img src="images/help.png" class="setting_icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"> </a>
+                </div>
+
+                <div class="setting_link">
+                    <img src="images/display.png" class="setting_icon">
+                    <a href="#">display & Accessibility <img src="images/arrow.png" width="10px"> </a>
+                </div>
+                <div class="setting_link">
+                    <img src="images/logout.png" class="setting_icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"> </a>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+    </nav>
+
+    <div class="container">
+        <div class="left_sidebar">
+            <div class="imp_link">
+                <a href="#"><img src="images/news.png">Latest News</a>
+                <a href="#"><img src="images/friends.png">friends</a>
+                <a href="#"><img src="images/group.png">group</a>
+                <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+            <div class="shortcut_link">
+                <p>Yours Shortcut</p>
+                <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png">Web Design course</a>
+                <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png">Website Experts</a>
+
+
+            </div>
+
+        </div>
+
+
+        <div class="main_content">
+            <div class="story_gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>Masum</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>Rana</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>Popy</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>Amena</p>
+                </div>
+            </div>
+
+            <div class="write_post_container">
+                <div class="user_profile">
+                    <img src="images/profile-pic.png">
+                <div>
+                    <p>Shahjahan</p>
+                    <small>Public <i class="fas fa-caret-down"></i></small>
+                </div>
+               </div>
+                    <div class="post_input_container">
+                        <textarea  rows="3" placeholder="What's on your mind,Shahjahan?"></textarea>
+                        <div class="add_post_link">
+                            <a href="#"> <img src="images/live-video.png"> Live Video</a>
+                            <a href="#"> <img src="images/photo.png"> Photo Video</a>
+                            <a href="#"> <img src="images/feeling.png"> Feeling/activity</a>
+                            
+                        </div>
+                    </div>
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png">
+                    <div>
+                        <p>Shahjahan</p>
+                      <span>june 24 2021,13:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+               <p class="post_text">subsjwshdebfvg qwsedrfgjhndsw sdfvgbjdnhwse dfvbwedrfjvnbv qwedrfgvbwsmdxc vncsmjv ncxsamkswjdnv </p>
+               <img src="images/feed-image-1.png" class="post_img">
+               <div class="post_row">
+                <div class="activity_icon">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">10</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post_profile_icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+
+                </div>
+               </div>
+
+            </div>
+
+            <div class="post_container">
+                <div class="post_row">
+
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png">
+                    <div>
+                        <p>Shahjahan</p>
+                      <span>june 24 2021,13:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+               <p class="post_text">sdfvgbjdnhwse dfvbwedrfjvnbv qwedrfgvbwsmdxc vncsmjv ncxsamkswjdnv </p>
+               <img src="images/feed-image-2.png" class="post_img">
+               <div class="post_row">
+                <div class="activity_icon">
+                    <div><img src="images/like.png">120</div>
+                    <div><img src="images/comments.png">10</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post_profile_icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+
+                </div>
+               </div>
+
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png">
+                    <div>
+                        <p>Shahjahan</p>
+                      <span>june 24 2021,13:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+               <p class="post_text">subsjwshdebfvg qwsedrfgjhndsw sdfvgbjdnhwse dfvbwedrfjvnbv qwedrfgvbwsmdxc vncsmjv ncxsamkswjdnv </p>
+               <img src="images/feed-image-3.png" class="post_img">
+               <div class="post_row">
+                <div class="activity_icon">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">10</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post_profile_icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+
+                </div>
+               </div>
+
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png">
+                    <div>
+                        <p>Shahjahan</p>
+                      <span>june 24 2021,13:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+               <p class="post_text">subsjwshdebfvg qwsedrfgjhndsw sdfvgbjdnhwse dfvbwedrfjvnbv qwedrfgvbwsmdxc vncsmjv ncxsamkswjdnv </p>
+               <img src="images/feed-image-4.png" class="post_img">
+               <div class="post_row">
+                <div class="activity_icon">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">10</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post_profile_icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+
+                </div>
+               </div>
+
+            </div>
+            <div class="post_container">
+                <div class="post_row">
+
+                    <div class="user_profile">
+                        <img src="images/profile-pic.png">
+                    <div>
+                        <p>Shahjahan</p>
+                      <span>june 24 2021,13:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+               </div>
+               <p class="post_text">subsjwshdebfvg qwsedrfgjhndsw sdfvgbjdnhwse dfvbwedrfjvnbv qwedrfgvbwsmdxc vncsmjv ncxsamkswjdnv </p>
+               <img src="images/feed-image-5.png" class="post_img">
+               <div class="post_row">
+                <div class="activity_icon">
+                    <div><img src="images/like-blue.png">120</div>
+                    <div><img src="images/comments.png">10</div>
+                    <div><img src="images/share.png">20</div>
+                </div>
+                <div class="post_profile_icon">
+                    <img src="images/profile-pic.png"><i class="fas fa-caret-down"></i>
+
+                </div>
+               </div>
+
+            </div>
+            <button type="button" class="load_more_btn">Load More</button>
+        </div>
+
+
+        <div class="right_sidebar">
+            <div class="sidebar_title">
+                <h4>Events</h4>
+                <a href="#">Sell All</a>
+            </div>
+            <div class="event">
+                <div class="left_event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right_event">
+                <h4>Social Media</h4>
+                <p><i class='fas fa-map-marker-alt'></i>Willson Tech Park</p>
+                <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left_event">
+                    <h3>22</h3>
+                    <span>Feb</span>
+                </div>
+                <div class="right_event">
+                <h4>Mobile Marketing</h4>
+                <p> <i class='fas fa-map-marker-alt'></i>Willson Tech Park</p>
+                <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar_title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar_ads">
+
+            <div class="sidebar_title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online_list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Shahjahan</p>
+            </div>
+            <div class="online_list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p>Rakib</p>
+            </div>
+            <div class="online_list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Araf</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">
+        <p>copyright 2023-shahjahan,cou-cse</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
